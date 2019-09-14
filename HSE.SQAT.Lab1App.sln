@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HSE.SQAT.Lab1App", "HSE.SQAT.Lab1App\HSE.SQAT.Lab1App.csproj", "{E0A52832-3990-4815-BED8-62DDE3D57128}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0A52832-3990-4815-BED8-62DDE3D57128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0A52832-3990-4815-BED8-62DDE3D57128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0A52832-3990-4815-BED8-62DDE3D57128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0A52832-3990-4815-BED8-62DDE3D57128}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F70013F7-8C50-479F-A508-C9178C244387}
+	EndGlobalSection
+EndGlobal
