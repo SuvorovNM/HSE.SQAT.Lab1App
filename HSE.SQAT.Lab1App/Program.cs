@@ -10,6 +10,7 @@ namespace HSE.SQAT.Lab1App
     {
         static void Main(string[] args)
         {
+
         }
     }
 }

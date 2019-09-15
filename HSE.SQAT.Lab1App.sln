@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HSE.SQAT.Lab1App", "HSE.SQAT.Lab1App\HSE.SQAT.Lab1App.csproj", "{E0A52832-3990-4815-BED8-62DDE3D57128}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HSE.SQAT.Lab1AppTests", "HSE.SQAT.Lab1AppTests\HSE.SQAT.Lab1AppTests.csproj", "{AA96CED7-3F23-4F74-8D52-C79CD22F7FA3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E0A52832-3990-4815-BED8-62DDE3D57128}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0A52832-3990-4815-BED8-62DDE3D57128}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0A52832-3990-4815-BED8-62DDE3D57128}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA96CED7-3F23-4F74-8D52-C79CD22F7FA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA96CED7-3F23-4F74-8D52-C79CD22F7FA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA96CED7-3F23-4F74-8D52-C79CD22F7FA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA96CED7-3F23-4F74-8D52-C79CD22F7FA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
