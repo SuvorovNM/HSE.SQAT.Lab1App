@@ -8,17 +8,17 @@ namespace HSE.SQAT.Lab1App
 {
     public class ChessChecker
     {
-        public static bool SearchForStrikingQueens(sbyte FirstX, sbyte FirstY, sbyte SecondX, sbyte SecondY)
+        public static bool SearchForStrikingQueens(sbyte firstX, sbyte firstY, sbyte secondX, sbyte secondY)
         {
-            if (FirstX > 8 || FirstX <= 0 || SecondX > 8 || SecondX <= 0 || FirstY > 8 || FirstY <= 0 || SecondY > 8 || SecondY <= 0)
+            if (firstX > 8 || firstX <= 0 || secondX > 8 || secondX <= 0 || firstY > 8 || firstY <= 0 || secondY > 8 || secondY <= 0)
             {
                 throw new ArgumentException();
             }
-            if (FirstX==SecondX && FirstY == SecondY)
+            if (firstX==secondX && firstY == secondY)
             {
                 throw new ArgumentException("Позиции ферзей одинаковы!");
             }
-            if (FirstX == SecondX || FirstY == SecondY || Math.Abs(FirstX - SecondX) == Math.Abs(FirstY - SecondY))
+            if (firstX == secondX || firstY == secondY || Math.Abs(firstX - secondX) == Math.Abs(firstY - secondY))
             {
                 return true;
             }
